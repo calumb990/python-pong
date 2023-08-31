@@ -12,13 +12,13 @@ from pong.components.Text import Text
 class Basic:
 
     def __init__(
-            self,
-            controller_width=1/20,
-            controller_height=2/3,
-            player_velocity=None,
-            ball_velocity=None,
-            frame_rate=60,
-            tick_rate=40
+        self,
+        controller_width=1/20,
+        controller_height=2/3,
+        player_velocity=None,
+        ball_velocity=None,
+        frame_rate=60,
+        tick_rate=40
     ):
         # Initialise pygame
         pygame.init()
