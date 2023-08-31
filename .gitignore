@@ -1,0 +1,11 @@
+# Pycharm
+.idea
+venv
+
+# Python
+**/__pycache__/
+
+# Setuptools
+python_pong.egg-info
+build
+dist
