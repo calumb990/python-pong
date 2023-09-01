@@ -33,11 +33,11 @@ class Controller:
     def get_height(self):
         return self.rectangle.height
 
-    def set_velocity(self, velocity: pygame.Vector2):
-        self.velocity = velocity
-
     def get_velocity(self):
         return self.velocity
+
+    def set_velocity(self, velocity: pygame.Vector2):
+        self.velocity = velocity
 
     def update(self):
         # Clear current controller

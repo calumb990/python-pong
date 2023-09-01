@@ -29,6 +29,9 @@ class Text:
         self.coordinates = coordinates
         pygame.display.update()
 
+    def get_text(self):
+        return self.__text
+
     def set_text(self, text: str):
         # Set previous text
         self.previous_text = self.text
@@ -36,9 +39,6 @@ class Text:
         # Set text and private text string
         self.text = self.font.render(text, True, colours.WHITE)
         self.__text = text
-
-    def get_text(self):
-        return self.__text
 
     def update(self):
         # Obtain previous text dimensions

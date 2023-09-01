@@ -44,12 +44,12 @@ class Ball:
     def get_radius(self):
         return self.radius
 
+    def get_velocity(self):
+        return self.velocity
+
     def set_velocity(self, velocity: pygame.Vector2):
         # Set new velocity
         self.velocity = velocity
-
-    def get_velocity(self):
-        return self.velocity
 
     def update(self):
         # Clear current ball
