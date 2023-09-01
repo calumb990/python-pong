@@ -1,6 +1,6 @@
 [project]
 name = "python-pong"
-version = "1.0.1"
+version = "1.0.2"
 authors = [{name="Dyrektrypt"}]
 description = " A Python library for implementing Pong in Pygame."
 license = {file = "LICENSE"}
