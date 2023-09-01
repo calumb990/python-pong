@@ -1,6 +1,6 @@
 [project]
 name = "python-pong"
-version = "1.0.0"
+version = "1.0.1"
 authors = [{name="Dyrektrypt"}]
 description = "A Python library containing components and implementations of the game Pong for Pygame"
 license = {file = "LICENSE"}
@@ -10,6 +10,6 @@ dependencies = [
 ]
 
 [project.urls]
-"Repository" = "https://github.com/Dyrektrypt/python-pong"
-"Homepage" = "https://github.com/Dyrektrypt/python-pong#readme"
-"Bug Tracker" = "https://github.com/Dyrektrypt/python-pong/issues"
+"Repository" = "https://github.com/dyrektrypt/python-pong"
+"Homepage" = "https://github.com/dyrektrypt/python-pong#readme"
+"Bug Tracker" = "https://github.com/dyrektrypt/python-pong/issues"
