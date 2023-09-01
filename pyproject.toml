@@ -2,7 +2,7 @@
 name = "python-pong"
 version = "1.0.1"
 authors = [{name="Dyrektrypt"}]
-description = "A Python library containing components and implementations of the game Pong for Pygame"
+description = " A Python library for implementing Pong in Pygame."
 license = {file = "LICENSE"}
 readme = "README.md"
 dependencies = [
